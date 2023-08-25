@@ -1,0 +1,124 @@
+*{
+    font-family: 'Allura','Lato', 'sans-serif';
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    display: inline;
+    padding-right: 20px;
+}
+
+.navbar, .showcase{
+    background-color: #1F2937;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.navbar h3{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.navbar ul li a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.showcase{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    color: #F9FAF8;
+    padding-bottom: 20px;
+}
+
+.showcase .content{
+    text-align: center;
+    width: 400px;
+}
+
+.showcase .pic img{
+        width: 350px;
+        max-height: 210px;
+}
+
+.btn{
+    padding: 8px 18px;
+    background-color: teal;
+    border-radius: 10px;
+    border: 1px white;
+    margin-top: 18px;
+    cursor: pointer;
+}
+
+.stock div img{
+    width: 200px;
+    height: 200px;
+}
+
+.stock div{
+    text-align: center;
+}
+
+.stock{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    padding: 0 50px;
+}
+
+.Available h2{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.qoute{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #E5E7EB;
+}
+
+.qoute div{
+    width: 43%;
+    padding: 76px 0;
+    font-size: 28px;
+}
+
+.owner{
+    font-weight: 700;
+    margin-left: 200px;
+}
+
+.call_action{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #1F2937;
+    text-align: center;
+    font-size: 24px;
+    color: #E5E7EB;
+    padding: 20px 0;
+}
